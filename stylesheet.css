@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+.header {
+    background-color: white;
+}
+.header img:nth-child(1) {
+    width: 50px;
+}
+.header img:nth-child(2)
+{
+    width: 25px;
+}
+
+
+/* header 1 */
+
+.landing-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/man-renovating-his-house-with-design-space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.landing-info-card > h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.landing-info-card > p {
+    font-weight: lighter;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.landing-info-card > button {
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 5px solid black;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.landing-info-card {
+    width: 600px;
+    background-color: white;
+    padding: 100px 50px;
+    border-radius: 10px;
+    margin-left: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Body 1 */
+
+.body-1{
+    background-color: #ffb300 ;
+    padding: 100px 450px;
+}
+.body-1-1st > h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+.body-1-1st > p {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 0;
+}
+.body-1-1st > button {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0;
+    color: white;
+    padding: 15px 50px;
+    background-color: black;
+    align-self: center;
+    border-radius: 10px;
+}
+.body-1 > h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0;
+}
+.body-1-1st {
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.info-card > img {
+    width: 48px;
+    border-radius: 50%;
+    background-color: #ffb300;
+    padding: 25px;
+    margin-bottom: 32px;
+}
+.info-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    border-radius: 10px;
+}
+.info-card > h3 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-bottom: 50px;
+}
+
+.info-card > p {
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 35px;
+}
+.body-4th-section {
+    background-image: url(img/part-male-construction-worker\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 150px;
+}
+.body-4th-section > h1 {
+    /* color: #fff; */
+    font-size: 70px;
+}
+.body-4th-section > p {
+    color: azure;
+    font-size: 32px;
+}
+.body-4th-section > button {
+    /* color: white; */
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 15px 35px;
+    font-size: 32px;
+}
+
+.body-5th-section {
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+.body-5th-section > .first > h1 {
+    font-size: 50px;
+    margin: 0;
+}
+.body-5th-section > .first > p {
+    font-size: 28px;
+    width: 1000px;
+}
+.seconds {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 150px;
+}
+.seconds > .second > div > p {
+    width: 700px;
+    font-size: 22px;
+}
+.seconds > .third > div > p {
+    width: 700px;
+    font-size: 22px;
+}
+
+
